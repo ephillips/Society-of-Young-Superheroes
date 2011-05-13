@@ -1,0 +1,641 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b2 | 201101
+   NOTE: THIS IS A BETA VERSION (see previous line)
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-width: 600px;
+}
+ol, ul {
+	list-style: none;
+	
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #FFF;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+}
+
+a{ text-decoration: none;
+}
+
+
+p{
+	color: white;
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	line-height: 20px;
+	letter-spacing: .8px;
+	}
+a{
+	color: rgb(160,160,160);
+}
+
+a:hover{
+	color: rgb(133,16,28);
+}
+a:active{
+	color:white;
+}
+		
+#container {
+	border:0;
+	width: 100%;
+	}
+
+#gohover{
+	position:fixed;
+	top: 0%;
+	left: 15%;
+	display: none;
+	cursor: pointer;
+	
+}
+	
+#goingson {
+	position:fixed;
+	top: 0%;
+	left: 15%;
+	display: block;
+	width:320px;
+	height:66px;
+	cursor: pointer;
+	
+}	
+
+#watchhover{
+	position:fixed;
+	top:36%;
+	left:14%;
+	display:none;
+	cursor: pointer;
+	
+}
+
+#watch{
+	position:fixed;
+	top:36%;
+	left:14%;
+	display:block;
+	width:232px;
+	height:67px;
+	cursor: pointer;
+}
+
+#helphover {
+	position:fixed;
+	top:58%;
+	left:21%;
+	display: none;
+	cursor: pointer;
+}
+
+#help {
+	position:fixed;
+	top:58%;
+	left:21%;
+	display:block;
+	width:219px;
+	height:63px;
+	cursor: pointer;
+}
+
+#allieshover {
+	position:fixed;
+	top: 58%;
+	left: 62%;
+	display: none;
+	cursor: pointer;
+}
+
+#allies {
+	position:fixed;
+	top: 58%;
+	left: 62%;
+	display:block;
+	width:389px;
+	height:92px;
+	cursor: pointer;
+}
+
+#emailhover {
+	position:fixed;
+	top:31%;
+	left:66%;
+	display:none;
+	cursor: text;
+}
+
+#email {
+	position:fixed;
+	top:31%;
+	left:66%;
+	cursor: text
+}
+
+#emailform {
+position: absolute;
+top: 54px;
+left: 74px;
+cursor: text;
+}
+
+#message {
+position: absolute;
+top: 30px;
+color: #ffffff;
+font-size:12px;
+cursor: text;
+}
+
+#message .error {
+	border: none;
+	background-color: #d5c5da;
+	}
+
+#mission{
+	position:fixed;
+	top:8%;
+	left:61.5%;
+	display:block;
+	height:87px;
+	width:249px;
+	cursor: pointer;
+}	
+
+#missionhover {
+	position:fixed;
+	top:8%;
+	left:61.5%;
+	display: none;
+	cursor: pointer;
+}
+	
+	
+	
+/*lines and footer shit starts here*/
+
+
+
+#toplineblack {
+	height: 5px;
+	width: 100%;
+	position:absolute;
+	background-color: black;
+	
+}	
+	
+#toplinered {
+	height: 3px;
+	top: 5px;
+	width: 100%;
+	position:absolute;
+	background-color: rgb(132, 0, 18);
+	
+}
+	
+#bottomlinered {
+	height: 3px;
+	bottom: 100px;
+	width: 100%;
+	position:absolute;
+	background-color: rgb(132, 0, 18);
+	
+}
+
+#footer {
+	position:fixed;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+#footercontent {
+	width:960px;
+	height: 100px;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+#contacthover {
+	position: fixed;
+	bottom: 33px;
+	right: 400px;
+	display: none;
+	
+}
+
+#contact{
+	position: fixed;
+	bottom: 30px;
+	right: 400px;
+	
+}
+	
+#twitterhover{
+	position: fixed;
+	bottom: 33px;
+	right: 325px;
+	display: none;
+}
+
+#twitter{
+	position: fixed;
+	bottom: 30px;
+	right: 325px;
+}
+
+#facebookhover{
+	position: fixed;
+	bottom: 33px;
+	right: 275px;
+	display: none;
+}
+
+#facebook{
+	position: fixed;
+	bottom: 30px;
+	right: 275px;
+}
+
+#longlogounhover{
+	position: fixed;
+	bottom: 10px;
+	left: 400;
+}
+#longlogohover{
+	position: fixed;
+	bottom: 10px;
+	left: 400;
+	display: none;
+
+}
+	
+	
+/* the fancys are gettin started, get ready...*/
+
+#greyout{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		z-index: 90;
+		opacity: .87;
+		overflow: auto;
+	}
+	
+#longlogoclick{
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				height: 100%;
+				width: 100%;
+				z-index: 100;
+				//display: none;
+			}
+#powerless{
+				position: relative;
+				left: 50%;
+				margin-left: -300px;
+				top: 125px;
+				z-index: 100;
+			}
+
+	
+#goingsonclick{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			z-index: 100;
+			display: none;
+			overflow:auto;
+		}
+	
+#goingsonfancy{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 90px;
+	height:100%;
+	width: 100%;
+	z-index: 100;
+	
+	
+}
+
+#goingsonlogo{
+		display: inline;
+		padding-right: 15px;
+		padding-left: 35%;
+		margin-top: 125px;
+		
+	}
+
+
+#gallery {
+	
+	text-align: left;
+	margin-left: 325px;
+
+}
+
+#show {
+	
+
+	margin-left: 325px;
+	color: #ffffff;
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	letter-spacing: .8px;
+}
+
+li {
+display: block;
+height: 500px;
+	float: left;
+	width: 33%;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: left;
+}
+
+h3 {
+	color: #ffffff;
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	font-size: 16pt;
+	line-height: 23px;
+	letter-spacing: .8px;
+}
+
+h4 {
+	color: #ffffff;
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	line-height: 20px;
+	letter-spacing: .8px;
+	font-style: italic;
+}
+
+
+
+#missionclick{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			z-index: 100;
+			display: none;
+		}
+
+#missionfancy{
+			position: relative;
+			margin-right: auto;
+			margin-left: auto;
+			top: 150px;
+			height:400px;
+			width: 800px;
+			z-index: 100;
+		}
+		
+
+
+		
+#missionlogo{
+	display: inline;
+	float: left;
+	padding-right: 15px;
+	margin-top: 90px;
+	
+}
+
+
+
+#missiontext {
+	display: block;
+	height: 500px;
+	padding: 10px;
+	width: 450px;
+	text-align: justify;
+	margin-left: 325px;	
+	
+}
+
+#alliesclick{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			z-index: 100;
+			display: none;
+		}
+
+#alliesfancy{
+			position: relative;
+			margin-right: auto;
+			margin-left: auto;
+			top: 125px;
+			height:400px;
+			width: 800px;
+			z-index: 100;
+		}
+		
+
+
+		
+#allieslogo{
+	display: inline;
+	float: left;
+	padding-right: 15px;
+	margin-top: 90px;
+	
+}
+
+
+
+#alliestext {
+	display: block;
+	height: 500px;
+	padding: 10px;
+	width: 450px;
+	text-align: justify;
+	margin-left: 300px;	
+	
+}
+
+#boilerroom{
+	width: 300px;
+	margin-left:78px;
+}
+#voice{
+	width: 220px;
+	margin-left: 113px;
+	margin-top:7px;
+}
+
+#watchclick{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			z-index: 2100;
+			display:none;
+		}
+#watchfancy{
+			position: relative;
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 10px;
+			padding-top: 10px;
+			top: 120px;
+			height:410px;
+			width: 610px;
+			z-index: 2200;
+			background-color: rgb(132, 0, 18);
+		}
+		
+
+input {
+	height: 24px; 
+	width: 175px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	color: rgb(130,130,130);
+	background-color: transparent;
+	cursor: text;
+	
+
+}
+
+.noFocus:focus{
+	outline: none;
+}
+
+
+
+
+#emailfancy{
+	display:none;
+	position:fixed;
+	top:31%;
+	left:66%;
+	cursor: default;
+	z-index: 49;
+}
+
+#pow{
+	position: absolute;
+	top: -65px;
+	right: -50px;
+	cursor: pointer;
+	height:81px;
+	width:108px;
+}
+
+#emailgrey{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	z-index: 30;
+	opacity: .30;
+	display: none;
+}
+
+#emailcopy{
+	position: fixed;
+	font-size: 12px;
+	width: 180px;
+	margin-top: 8px;
+	margin-left:2px;
+	line-height: 17px;
+}
+
+
+
+/*Allllllll the sick assssss logo shit...............*/
+
+#logobox {
+	position: fixed;
+	width: 40%;
+
+}
+
+#logo{
+	position: fixed;
+	width:30%;
+	margin-left: 34.5%;
+	margin-right:30.5%;
+	min-width: 200px;
+	margin-top: 12%;
+}
+
+#logohover{
+	position: fixed;
+	width:30%;
+	margin-left: 31.5%;
+	margin-right:32.5%;
+	min-width: 200px;
+	margin-top: 10%;
+}

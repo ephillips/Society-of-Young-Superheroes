@@ -1,0 +1,97 @@
+
+<!DOCTYPE HTML> 
+<html> 
+	<head> 
+ 
+			<meta charset="utf-8"> 
+			
+			<title>Society of Young Superheroes</title> 
+ 
+			<link rel="stylesheet" type="text/css" href="css/emailstyle.css" /> 
+ 
+			<meta name="description" content="Society of Young Superheroes" /> 
+			
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+			<!-- Change the width below to just wider than your form's width
+			to optimize its initial scale on Apple iOS  and Android devices --> 
+			<meta name = "viewport" content="width=640"> 
+ 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+ 
+<link rel="icon" type="assets/flav.png" href="flav.png" /> 
+<link rel="shortcut icon" type="image/x-icon" href="assets/flav.png" /> 
+ 
+		<script type="text/javascript"> 
+			$(document).ready(function() {
+				
+			//email submit starts here . . . //
+			
+			$('#emailform').submit(function() {
+			               $("#message").html("<span class='error'>Signing you up...</span>");
+			               $.ajax({
+			                   url: 'assets/scripts/store-address.php',
+			                   data: 'ajax=true&email=' + escape($('#email').val()),
+			                   success: function(msg) {
+			                       $('#message').html(msg);
+			                   }
+			               });
+			               return false;
+			           });
+			     
+			 
+			         }); 
+			   </script> 
+			<script type="text/javascript"> 
+			
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-23338291-1']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			
+			</script> 
+</head> 
+<body> 
+		<h1>Give Us Your Email!</h1> 
+	
+	<h3 id="message"></h3> 
+	</div> 
+ 
+	
+	<div id="emailfancy"><img src="img/emailfancy.png" id="imagebox"/> 
+	
+		<form id="emailform" action="email.html" method="GET"> 
+		
+ 
+		<input type="text" name="email" id="email" class="noFocus" value="" /> 
+		
+			<input type="image" class="submit" id="pow" value="GO" src="img/emailpow.png" /> 
+			
+		</form> 
+		
+	<div class="typeemail" style="color:#acacac;"> 
+		<p> 
+		Email address . . . . . . . . 
+		<p> 
+		<script> 
+		  $("p").click(function () {
+		  $("p").fadeOut("slow");
+		  });
+		  </script> 
+		</div> 
+		
+		
+		
+		
+	</div> 
+	
+	
+		
+	</div> 
+</body> 
+ 
+</html> 

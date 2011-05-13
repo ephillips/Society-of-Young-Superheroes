@@ -1,0 +1,183 @@
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b2 | 201101
+   NOTE: THIS IS A BETA VERSION (see previous line)
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 0.4;
+	min-width: 600px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background: ;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	z-index:-1;
+	text-align: center;
+}
+
+container {
+	position: absolute;
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+	height: 100%;
+}
+
+a{ text-decoration: none;
+}
+
+
+		
+p{
+	
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	letter-spacing: .8px;
+	font-size: 12px;
+	}
+	
+h2{
+	
+	font-family: 'Trebuchet MS', Tahoma, Lucida, Helvetica, Arial, sans-serif;
+	line-height: 18px;
+	letter-spacing: .8px;
+	font-size: 13px;
+	}
+a{
+	color: rgb(160,160,160);
+}
+
+a:hover{
+	color: rgb(133,16,28);
+}
+a:active{
+	color:white;
+}
+
+	
+#email{
+	position: absolute;
+	left: 50%;
+	margin-left: -88px;
+	top: 63px;
+	z-index: 500;
+	border: none;
+	height: 20px;
+	width: 200px;
+	font-size: 14px;
+}
+
+ .noFocus:focus{
+ 	outline: none;
+ }
+
+
+#emailfancy{
+  	position: absolute;
+    top:100px;
+    left:50%;
+    margin-left: -165px;
+    cursor: default;
+    z-index: 49;
+}
+
+#imagebox {
+	width: 330px;
+}
+
+#pow{
+   position:absolute;
+   left: 216px;
+   top: -12px;
+    cursor: pointer;
+    height:90px;
+    width:120px;
+    z-index:2000;
+}
+
+.emailcopy{
+  	position: absolute;
+  	top: 78px;
+  	left: 50%;
+  	margin-left: -80px;
+    width: 190px;
+    line-height: 17px;
+    color: white;
+    z-index:1000;
+}
+
+
+#emailform {
+	
+}
+
+#emailstyle {
+position: absolute;
+	font-size: 30px;
+	text-align:center;
+}
+
+#label {
+	display: block;
+	position: absolute;
+	top: 10px;
+	text-align: center;
+}
+
+.typeemail {
+	position: absolute;
+	top: 52px;
+	left: 80px;
+	z-index:3000;
+	padding:2px;
+}

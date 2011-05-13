@@ -1,0 +1,426 @@
+
+<!DOCTYPE HTML> 
+<html> 
+	<head> 
+ 
+			<meta charset="utf-8"> 
+			
+			<title>Society of Young Superheroes</title> 
+			
+			<meta name="description" content="Welcome to the Society of Young Superheroes. Find information about events, sign up for updates, and donate to our cause."/> 
+				<meta name="keywords" content="logan square, theatre, superheroes, comics, chicago, arts" /> 
+				<meta content='index' name='robots'> 
+			    <meta content='follow' name='robots'> 
+			    <meta content='all' name='robots'> 
+ 
+			<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+ 
+			<meta name="description" content="Society of Young Superheroes" /> 
+			
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+			<!-- Change the width below to just wider than your form's width
+			to optimize its initial scale on Apple iOS  and Android devices --> 
+			<meta name = "viewport" content="width=640"> 
+ 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+			
+			<link rel="icon" type="assets/flav.png" href="flav.png" /> 
+			<link rel="shortcut icon" type="image/x-icon" href="assets/flav.png" /> 
+			
+ 
+ 
+		<script> 
+			$(document).ready(function() {
+				
+				//going on hover function//
+				$('#goingson').click(function(){
+					$('#greyout').fadeIn();
+					$('#goingsonclick').fadeIn();
+				});
+				$('#goingsonclick').click(function(){
+					$('#greyout').fadeOut();
+					$('#goingsonclick').fadeOut();
+				});
+				
+				$('#goingson').hover(function() {
+					$('#gohover').fadeIn('fast');
+					$('#gounhover').fadeOut('fast');
+					
+				}, function() {
+					$('#gohover').fadeOut('fast');
+					$('#gounhover').fadeIn('fast');
+				});
+				
+				
+				
+				//mission function//
+				
+				$('#mission').click(function(){
+					$('#greyout').fadeIn();
+					$('#missionclick').fadeIn();
+					$('#missionfancy').fadeIn();
+					
+				});
+				$('#missionclick').click(function(){
+					$('#greyout').fadeOut();
+					$('#missionclick').fadeOut();
+					$('#missionfancy').fadeOut();
+				});
+				
+				$('#mission').hover(function() {
+					$('#missionhover').fadeIn('fast');
+					$('#missionunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#missionhover').fadeOut('fast');
+					$('#missionunhover').fadeIn('fast');
+				});
+				
+				//watch function//
+				
+				$('#watch').click(function(){
+					$('#greyout').fadeIn();
+					$('#watchclick').fadeIn();
+					
+				});
+				$('#watchclick').click(function(){
+					$('#greyout').fadeOut();
+					$('#watchclick').fadeOut();
+				});
+				
+				$('#watch').hover(function() {
+					$('#watchhover').fadeIn('fast');
+					$('#watchunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#watchhover').fadeOut('fast');
+					$('#watchunhover').fadeIn('fast');
+				});
+				
+				//email function//
+		/*		$('#email').click(function(){
+					$('#emailfancy').fadeIn("slow");
+					$('#emailgrey').fadeIn("fast");
+					$('#email').fadeOut("slow");
+				});
+				$('#pow').click(function(){
+					$('#emailfancy').fadeOut("slow");
+					$('#emailgrey').fadeOut("slow");
+					$('#email').fadeIn("slow");
+				});
+				
+				$('#emailgrey').click(function(){
+					$('#emailfancy').fadeOut("slow");
+					$('#emailgrey').fadeOut("slow");
+					$('#email').fadeIn("slow"); 
+				}); */
+				
+				$('#email').hover(function() {
+					$('#emailhover').fadeIn('fast');
+					$('#emailunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#emailhover').fadeOut('fast');
+					$('#emailunhover').fadeIn('fast');
+				});
+				
+				//help functions//
+				$('#help').hover(function() {
+					$('#helphover').fadeIn('fast');
+					$('#helpunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#helphover').fadeOut('fast');
+					$('#helpunhover').fadeIn('fast');
+				});
+				
+				//allies functions//
+				
+				$('#allies').click(function(){
+					$('#greyout').fadeIn();
+					$('#alliesclick').fadeIn();
+				});
+				$('#alliesclick').click(function(){
+					$('#greyout').fadeOut();
+					$('#alliesclick').fadeOut();
+				});
+				
+				
+				$('#allies').hover(function() {
+					$('#allieshover').fadeIn('fast');
+					$('#alliesunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#allieshover').fadeOut('fast');
+					$('#alliesunhover').fadeIn('fast');
+				});
+				
+				//contact functions//
+				$('#contact').hover(function() {
+					$('#contacthover').fadeIn('fast');
+					$('#contactunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#contacthover').fadeOut('fast');
+					$('#contactunhover').fadeIn('fast');
+				});
+				
+				$('#twitter').hover(function() {
+					$('#twitterhover').fadeIn('fast');
+					$('#twitterunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#twitterhover').fadeOut('fast');
+					$('#twitterunhover').fadeIn('fast');
+				});
+				
+				$('#facebook').hover(function() {
+					$('#facebookhover').fadeIn('fast');
+					$('#facebookunhover').FadeOut('fast');
+					
+				}, function() {
+					$('#facebookhover').fadeOut('fast');
+					$('#facebookunhover').fadeIn('fast');
+				});
+				
+				$('#longlogo').hover(function() {
+					$('#longlogohover').fadeIn('fast');
+					$('#longlogounhover').fadeOut('fast');
+					
+				}, function() {
+					$('#longlogohover').fadeOut('fast');
+					$('#longlogounhover').fadeIn('fast');
+				});
+				
+				$('#longlogo').click(function(){
+									$('#greyout').fadeIn();
+									$('#longlogoclick').fadeIn();
+									
+								});
+								$('#longlogoclick').click(function(){
+									$('#greyout').fadeOut();
+									$('#longlogoclick').fadeOut();
+								});
+				
+				
+				});
+			
+		
+			
+		
+	
+		</script> 
+		
+<script type="text/javascript"> 
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23338291-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script> 
+ 
+</head> 
+<body> 
+		
+	
+	
+	
+	<div id="container"> 
+	<div id="greyout"> 
+	</div> 
+	<img src="img/syslogo.png" id="logo"> 
+		<div id="goingson"> 
+				<img id='gounhover' src="img/goingson.png"> 
+				<img id="gohover" src="img/goingsonhover.png"> 
+		</div> 
+	
+		<div id="mission"> 
+			<img id="missionunhover" src="img/mission.png"> 
+			<img id="missionhover" src="img/missionhover.png"> 
+		</div> 
+	
+		<div id="watch"> 
+			<img id="watchunhover"src="img/watch.png"> 
+			<img id="watchhover" src="img/watchhover.png"> 
+		</div> 
+	
+		<div id="email"> 
+			<a href="email.html" target="_blank"><img id="emailunhover" src="img/email.png"></a> 
+			<a href="email.html" target="_blank"><img id="emailhover" src="img/emailhover.png"></a> 
+		</div> 
+		
+		<div> 
+		
+		<div id="help"> 
+			<a href="http://www.indiegogo.com/POWERLESS-Issues-1-3" target="_blank"> 
+			<img id="helpunhover" src="img/help.png"></a> 
+			<a href="http://www.indiegogo.com/POWERLESS-Issues-1-3" target="_blank"> 
+			<img id="helphover" src="img/helphover.png"></a> 
+		</div> 
+	
+		<div id="allies"> 
+			<img id="alliesunhover" src="img/allies.png"> 
+			<img id="allieshover" src="img/allieshover.png"> 
+		</div> 
+ 
+ 
+	</div> 
+	
+	
+	<!--other stuff not link related starts here--> 
+	
+	
+	<div id="toplineblack"> 
+	</div> 
+	
+	<div id="toplinered"> 
+	</div> 
+	
+	<div id="bottomlinered"> 
+	</div> 
+	
+	<div id="footer"> 
+		
+		<div id="footercontent"> 
+		<div id="contact"> 
+			<a href="mailto:info@societyofyoungsuperheroes.org" target="_blank"><img id="contactunhover" src="img/contact.png"></a> 
+			<a href="mailto:info@societyofyoungsuperheroes.org" target="_blank"><img id="contacthover" src="img/contacthover.png"></a> 
+		</div> 
+		
+		<div id="twitter"> 
+			<a href="http://www.twitter.com" target="_blank"><img id="twitterunhover" src="img/twitter.png"></a> 
+			<a href="http://www.twitter.com" target="_blank"><img id="twitterhover" src="img/twitterhover.png"></a> 
+		</div> 
+		
+		<div id="facebook"> 
+			<a href="http://www.facebook.com/pages/Society-of-Young-Superheroes/130396000370041" target="_blank"><img id="facebookunhover" src="img/facebook.png"></a> 
+			<a href="http://www.facebook.com/pages/Society-of-Young-Superheroes/130396000370041" target="_blank"><img id="facebookhover" src="img/facebookhover.png"></a> 
+		</div> 
+		<div id="longlogo"> 
+		<img id="longlogounhover" src="img/longlogo.png"> 
+		<img id="longlogohover" src="img/longlogohover.png"> 
+		</div> 
+		
+	</div> 
+	</div> 
+ 
+	<!--fancy fakers are a'startin about.....now. --> 
+	
+	<div id="longlogoclick"> 
+		<img id="powerless" src="img/powerless.png"> 
+	</div> 
+	
+	
+	<div id="watchclick"> 
+		<div id="watchfancy"> 
+			<img id="comingsoon" src="img/syslogo4.jpg" /> 
+		</div> 
+	
+	</div> 
+	
+	<div id="goingsonclick"> 
+		<div id="goingsonfancy"> 
+		
+		<ul> 
+			<li><img id="goingsonlogo"src="img/goingsonfancy.png"></li> 
+		
+			<div id="gallery"> 
+				<!--all goings on copy goes in here--> 
+			
+			<li><h3>The Society of Young Superheroes presents:<br> 
+				<em>The POWERLESS Art Gallery</em><br> 
+				in partnership with Voice of the City</h3><br /> 
+				<h4>July 29-30<br /> 
+				3429 W. Diversey  <br /> 
+				Logan Square, Chicago</h4><br /> 
+ 
+ 
+			<p>		The POWERLESS Art Gallery will include a display of original prints and illustrations inspired by the theme "Powerless", as expressed through the comic book or cartoon art style. The POWERLESS Art gallery will operate in tandem with the SYS production of POWERLESS, which begins previews on July 28th at Voice of the City Studio.  For more information, please visit <a href="http://www.milwaukeeavenueartsfestival.org/" target="_blank">The Milwaukee Avenue Arts Fest</a>.</p></li></div> 
+			
+			<div id="show">	
+			<li><h3>	POWERLESS: Issues 1-3 <br /> 
+				in partnership with Voice of the City <br /> 
+				by Mitch Salm and David M. Brent <br /> 
+				Directed by Jack Tamburri </h3><br /> 
+				
+			<h4>	June 28-August 20 <br /> 
+				Voice of the City (www.voiceofthecity.org)<br /> 
+				3429 W. Diversey, <br /> 
+				Logan Square, Chicago </h4> 
+				<br /> 
+		<p>		The story of POWERLESS revolves around a group of young heroes in Logan Square who attempt to understand and develop their powers in a city where heroes are relegated to bureaucratic paper-pushing and crimes are solved by non-masked, non-caped, and non-super cops. Follow the antics of the rag tag SYS, government regulated MSCC (Metropolitan Superhero Conglomerate Corporation), and our protagonists, freshly graduated Milo, Massen and Maggie, as they attempt to determine the role of the hero in modern day Chicago's urban jungle. <br /> <br /> </p> </li> 
+				
+			
+</div> 
+			</ul> 
+		</div> 
+		</div> 
+		
+	</div> 
+	
+	
+	<div id="missionclick"> 
+		<div id="missionfancy"> 
+			<img id="missionlogo"src="img/missionfancy.png"> 
+			<div id= 'missiontext'> 
+			<p> 
+				<!--all mission copy goes in here--> 
+				The Society of Young Superheroes is an organization that exists to challenge the current superhero culture in Chicago. In a city where heroes are relegated to bureaucratic paper-pushing and crimes are solved by non-masked, non-super cops, the SYS is an order of crime-fighters who walk the streets instead of the office halls.  Join us in our attempt to revive what it means to be a true “hero”!<br><br> 
+ 
+				As an indication of the SYS’s commitment to its community, we hold events in which our non-super neighbors and friends can participate. Please note that card-carrying members of the MSCC (Metropolitan Superhero Conglomerate Corporation) will not be admitted to these events. Check out our Goings On to see where you can find us next.
+ 
+			</p> 
+			</div> 
+		</div> 
+	</div> 
+	
+	
+	<div id="alliesclick"> 
+		<div id="alliesfancy"> 
+			<img id="allieslogo"src="img/alliesfancy.png"> 
+			<p id="alliestext"> 
+				
+				<!--all allies copy goes in here--> 
+				
+				The Society of Young Superheroes is made possible with the assistance of our unbeatable allies. They've kindly lent their brains, their time and/or their dollars in order to foster the development of both the SYS and our production of POWERLESS: Issues 1-3. We would save these fine folks from a super villain any day. <br><br> 
+ 
+				If you're interested in becoming one of our allies, please send word to us via <a href="mailto:info@societyofyoungsuperheroes.org">carrier pigeon</a>, <a href="mailto:info@societyofyoungsuperheroes.org">smoke signal</a>, or <a href="mailto:info@societyofyoungsuperheroes.org">telepathy</a>. In addition, please visit our <a href="http://www.indiegogo.com/POWERLESS-Issues-1-3" target="_blank">online fundraising campaign</a> to become a financial sponsor of POWERLESS: Issues 1-3.
+				<br><br><img id="boilerroom" src="img/boilerroom.png"> 
+				<img id="voice" src="img/voice.png"> 
+			</p> 
+			
+			
+			
+		</div> 
+		
+	</div> 
+	
+	<!--Forms and Videos start here--> 
+	
+<!--
+	<div id="emailfancy">
+		<img src="img/emailfancy.png">
+			<img id="pow" src="img/emailpow.png">--> 
+ 
+				
+	</div> 
+ 
+ 
+<!--	<div id="emailgrey">
+			</div> --> 
+			
+			
+			
+	
+ 
+ 
+</body> 
+ 
+ 
+</html> 
